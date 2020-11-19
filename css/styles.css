@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 110px;
+  color: #66BFBF;
+}
+
+h2 {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  color: #66BFBF;
+  font-weight: bolder;
+}
+
+h3 {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color:#11999E;
+  font-weight: bolder;
+}
+
+p {
+  color: #40514e;
+}
+
+hr{
+  /*background-color: #fff;*/
+  border: 0;
+	border-bottom: 10px dotted #eaf6f6;
+  width: 10%;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  padding-top: 59px;
+  /*padding-bottom: 135px;*/
+}
+
+.middle-container {
+  padding-bottom: 59px;
+
+}
+
+.bottom-container {
+  background-color: #e4f9f5;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+/*
+.pro {
+  text-decoration: underline;
+}
+*/
+
+.top-cloud {
+  position: absolute;
+  right: 250px;
+  top: 70px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 250px;
+}
+
+.mountain{
+position: relative;
+bottom: 0;
+}
+
+.name-intro{
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+}
+
+.job-intro{
+  font-size: 1.5rem;
+  font-weight: normal;
+  line-height: 2;
+  color: #66BFBF;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 70px auto 70px auto;
+  text-align: left;
+  line-height: 2;
+
+}
+
+.left-pic{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+
+}
+
+.farmer{
+  border-radius: 70%;
+  width: 15%;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+.right-pic{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+/*
+.btn{
+  text-decoration: none;
+  padding-top: 30px;
+}
+*/
+
+.btn {
+    background-color: #66bfbf; /* Green */
+    border-radius: 8px;
+    border: none;
+    color: #eaf6f6;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+
+.footer-link{
+  color: #11999E;
+  margin:auto 20px auto 20px;
+  text-align: justify;
+  text-decoration: none;
+}
+
+.fab{
+  margin:auto 10px;
+  color: gray;
+}
